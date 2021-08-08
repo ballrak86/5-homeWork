@@ -1,0 +1,6 @@
+vagrant up
+vagrant ssh nfsc
+[vagrant@nfsc ~]$ ls -l /nfsdirc/upload/1.txt
+[vagrant@nfsc ~]$ logout
+vagrant ssh nfss
+[vagrant@nfss ~]$ ls -l /nfsdirs/upload/1.txt

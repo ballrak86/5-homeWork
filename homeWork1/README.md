@@ -23,7 +23,7 @@ vagrant ssh nfss
 ## Полное описание как работают скрипты.
 Vagrantfile взят стандартный, его описывать не нужно.
 
-nfss_script.sh
+### nfss_script.sh
 ```
 #!/bin/bash
 mkdir -p /nfsdirs/upload
@@ -53,7 +53,7 @@ firewall-cmd --reload
 ```
 Настраиваем файервол для монтирования nfs на клиенте
 
-nfsc_script.sh
+### nfsc_script.sh
 ```
 #!/bin/bash
 mkdir /nfsdirc
